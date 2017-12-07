@@ -49,12 +49,10 @@
 </td>
 </tr>
 <tr>
-<td colspan="3" align ='center'>
-        <input id="btn_login" name="btn_login" type="submit" class="btn btn-sm btn-success" value="Login">
+        <td colspan="3"><input id="btn_login" name="btn_login" type="submit" class="btn btn-sm btn-success" value="Login"></td>
 </td>
 </tr>
 <tr>
-     <td colspan="3" align ='center'>
           <table>
           <tr>
           <td>

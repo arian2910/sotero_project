@@ -2,7 +2,7 @@
 	  echo '<center>';
 	  echo '<table border=0 class="ventanas" width="650" cellspacing="0" cellpadding="0">';
 	  echo '<tr>';
-	  echo "<td height='10' class='tabla_ventanas_login' height='10' colspan='3'><legend align='center'>.: Nuevo Usuario :.</legend></td>";
+	  echo "<td height='10' class='tabla_ventanas_login' height='10' colspan='3'><legend align='center'>Ingresa al Nuevo Usuario</legend></td>";
 	  echo '</tr>';
 	  echo '<tr><td colspan=3>';
 	  $attributes = array("class" => "form-horizontal", "id" => "form", "name" => "form");
@@ -89,7 +89,6 @@
 	echo '<tr>';
 	echo '<td colspan=3>'.$this->session->flashdata('msg').'</td>';
 	echo '</tr>';
-	echo '<tr><td colspan=3><hr/></td></tr>';
 	echo '<tr>';
 	echo '<td colspan=3><center>';
 	echo '<input type="submit" class="btn btn-success" value="Guardar">';

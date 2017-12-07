@@ -9,7 +9,8 @@ class usuarios extends CI_Controller
           //Cargamos el modelo deel controlador
           $this->load->model('model_usuarios');
           $this->load->model('model_seguridad');
-          $this->load->model('model_login');
+		  $this->load->model('model_login');
+		  
      }
      function Seguridad(){
      	$url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
@@ -21,7 +22,6 @@ class usuarios extends CI_Controller
           $this->load->view('header');
           $data['usuarios'] = $this->model_usuarios->ListarUsuarios();         
           $this->load->view('view_usuarios', $data);
-          $this->load->view('footer');
 	}
      public function nuevo(){
 	      
@@ -44,13 +44,11 @@ class usuarios extends CI_Controller
                     $this->session->set_flashdata('msg', '<div class="alert alert-error text-center">Email Duplicado</div>');
                     $this->load->view('header');
 					$this->load->view('view_nuevo_usuario');
-					$this->load->view('footer');
                }
 			
 		}else{
 			  $this->load->view('header');
 			  $this->load->view('view_nuevo_usuario');
-			  $this->load->view('footer');
 		} 
      }
 	 function ValidaCampos(){
@@ -90,7 +88,6 @@ class usuarios extends CI_Controller
 			$data['Error']   = "Error: El ID <strong>".$id."</strong> No es Valido, Verifica tu Busqueda !!!!!!!";
 			$this->load->view('header');
 			$this->load->view('view_errors',$data);
-			$this->load->view('footer');
 			return;
 		}
 		if ($this->input->post()) {
@@ -269,11 +266,8 @@ class usuarios extends CI_Controller
 				$data['id_menu']		  = $idMenus;
 				$this->load->view('header');
 				$this->load->view('view_permisos',$data);
-				$this->load->view('footer');
 			}
 		}
 		
 	 }
 }
-/* Archivo clientes.php */
-/* Location: ./application/controllers/clientes.php */

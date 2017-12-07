@@ -1,3 +1,9 @@
 body{
-    background: url()
+    background: url("../imagenes/main-bgr.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+* input{
+    height: 50px;
 }
