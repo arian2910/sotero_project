@@ -4,6 +4,6 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-* input{
-    height: 50px;
+input{
+    height: 30px;
 }
