@@ -7,7 +7,6 @@
               'id'          => "username",
               'size'        => "50",
               'value'       => set_value("username"),
-              'placeholder' => "Teclea tu Email",
              );
            $password = array(
               'name'        => "password",
@@ -21,7 +20,7 @@
 ?>
 <table width='450' border='0' class='ventanas' cellspacing='0' cellpadding='0'>
 <tr>
-     <td colspan='3'  height='10' colspan='3'><legend align="center">Inicia Sesión</legend></td>
+     <td colspan='3'  height='10' colspan='3'><legend>Iniciar Sesión</legend></td>
 
 </tr>
 <tr><td colspan=3><br/></td></tr>
@@ -30,7 +29,7 @@
      <center>
      <table>
      <tr>
-          <td><?php echo form_label("Email:","lblEmail"); ?></td>
+          <td><?php echo form_label("E-mail","lblEmail"); ?></td>
           <td>
                <?php echo form_input($usuario); ?>
                <font color="red"><?php echo form_error('username'); ?></font>
@@ -52,7 +51,6 @@
 <tr>
 <td colspan="3" align ='center'>
         <input id="btn_login" name="btn_login" type="submit" class="btn btn-sm btn-success" value="Login">
-        <input id="btn_cancel" name="btn_cancel" type="reset" class="btn btn-default" value="Limpiar">
 </td>
 </tr>
 <tr>
