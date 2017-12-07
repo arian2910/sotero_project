@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`ID`, `NOMBRE`, `APELLIDOS`, `EMAIL`, `FECHA_REGISTRO`, `ESTATUS`, `TIPO`, `PASSWORD`) VALUES
-(1, 'Desarrollos', 'en PHP', 'rodrigo.arenas@intoconsultancy.com', '2014-07-30 14:39:06', 0, 'Administrador', '202cb962ac59075b964b07152d234b70'),
+(1, 'Rodrigo', 'Arenas', 'rodrigo.arenas@intoconsultancy.com', '2014-07-30 14:39:06', 0, 'Administrador', '202cb962ac59075b964b07152d234b70'),
 (2, 'Manuel', 'Cortes Crisanto', 'crisant_89@hotmail.com', '2014-07-30 14:39:06', 0, 'Invitado', '81dc9bdb52d04dc20036dbd8313ed055');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
