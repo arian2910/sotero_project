@@ -2,18 +2,15 @@
  
 class login extends CI_Controller
 {
-
      public function __construct()
      {
           parent::__construct();
           //Cargamos el modelo del controlador
           $this->load->model('model_login');
      }
-     /*FUNCION QUE CARGA EL LOGIN*/
      function MuestraLogin(){
           $this->load->view('header');
           $this->load->view('view_login');
-          $this->load->view('footer');
 	 }
      public function index()
      {
@@ -21,7 +18,6 @@ class login extends CI_Controller
           if($this->session->userdata('is_logged_in')){
                $this->load->view('header');
 			$this->load->view('view_home');
-			$this->load->view('footer');
           }else{
                $this->MuestraLogin();
           }
@@ -71,6 +67,3 @@ class login extends CI_Controller
           }
      }
 }
-
-/* Archivo login.php */
-/* Location: ./application/controllers/login.php */

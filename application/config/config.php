@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/tutorial_login/';
+$config['base_url']	= 'http://localhost/sotero_project/';
 
 /*
 |--------------------------------------------------------------------------

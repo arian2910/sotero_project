@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/bootstrap.css">
 <link href="<?php echo base_url();?>css/Estilo.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/Tablas.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css">
 <script type="text/javascript" language="javascript" src="<?php echo base_url();?>js/jquery.js"></script>
 <script type="text/javascript" language="javascript" src="<?php echo base_url();?>js/bootstrap.min.js"></script>
 <script type="text/javascript" language="javascript" src="<?php echo base_url();?>js/jquery.dataTables.js"></script>	
